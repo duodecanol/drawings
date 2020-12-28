@@ -1,1 +1,147 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T13:27:44.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.3" etag="BwD9DJftBmsE0XFQJ3Vl" type="github"><diagram id="BKGD6hkt74O3QeifFGWc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-28T13:45:33.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Klhb8O4OLD0jEKXKK7u2" version="14.1.3" type="github">
+  <diagram id="BKGD6hkt74O3QeifFGWc" name="Page-1">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tFxI3ymSdmiOkB857lDA-1" value="&lt;h1&gt;도면작업-새 프로세스&lt;/h1&gt;&lt;p&gt;새 프로세스를 간단히 나타낸다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-2" value="도면이 있는 명세서의 경우 (RWS의 경우)" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="470" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-3" value="고객사" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#B9E0A5;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-2">
+          <mxGeometry x="20" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-4" value="신건의뢰&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-3">
+          <mxGeometry x="30" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-5" value="검토 및 재작업 의뢰" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-3">
+          <mxGeometry x="310" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-6" value="당사" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#CCCCFF;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-2">
+          <mxGeometry x="20" y="120" width="450" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-8" target="tFxI3ymSdmiOkB857lDA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-8" value="도면파트 분석" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-23" target="tFxI3ymSdmiOkB857lDA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-23" value="도면들을 특허명세서작성기 규칙에 준하여 개별 PSD파일로 캡처" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-25" target="tFxI3ymSdmiOkB857lDA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-25" value="Google Vision API를 통해 각 도면 PSD파일별로 자동 텍스트 레이어 생성" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="170" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-27" target="tFxI3ymSdmiOkB857lDA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-27" value="PSD 파일들을 MemoQ에 Import" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="170" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-28" value="MemoQ에서 Bilingual Export (rtf)로 이중언어 파일 생성" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="170" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-32" target="tFxI3ymSdmiOkB857lDA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-32" value="인간에 의해 OCR 검수" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="170" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.493;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-41" target="tFxI3ymSdmiOkB857lDA-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-41" value="MemoQ를 활용한&lt;br&gt;도면 번역문 검토" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="310" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-45" target="tFxI3ymSdmiOkB857lDA-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-45" value="MemoQ로부터&lt;br&gt;PSD파일 Export" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="310" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-60" target="tFxI3ymSdmiOkB857lDA-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-60" value="&lt;font style=&quot;font-size: 11px&quot;&gt;인간에 의해&lt;br&gt;서식, 위치, 지우기 조정&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="310" y="190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-61" target="tFxI3ymSdmiOkB857lDA-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-61" value="&lt;font style=&quot;line-height: 90% ; font-size: 9px&quot;&gt;PSD &amp;gt; TIF 변환&lt;br&gt;(기존 도면처리지침대로)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;align=center;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="310" y="140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-62" value="&lt;font style=&quot;line-height: 90% ; font-size: 9px&quot;&gt;도면섹션 매크로를 이용해 도면섹션 문서 생성&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;align=center;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="310" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-63" value="&lt;font style=&quot;line-height: 90% ; font-size: 9px&quot;&gt;도면섹션을 본문과 병합&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;align=center;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-6">
+          <mxGeometry x="310" y="45" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-6" source="tFxI3ymSdmiOkB857lDA-62" target="tFxI3ymSdmiOkB857lDA-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-12" value="번역가" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#FFCC99;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-2">
+          <mxGeometry x="20" y="500" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-12" source="tFxI3ymSdmiOkB857lDA-33" target="tFxI3ymSdmiOkB857lDA-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-33" value="제공받은 이중언어 파일에 도면 번역" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-12">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-34" value="명세서 본문 +&amp;nbsp;&lt;br&gt;도면 이중언어 파일&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFCC99;" vertex="1" parent="tFxI3ymSdmiOkB857lDA-12">
+          <mxGeometry x="180" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-16" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-2" source="tFxI3ymSdmiOkB857lDA-4" target="tFxI3ymSdmiOkB857lDA-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="tFxI3ymSdmiOkB857lDA-2" source="tFxI3ymSdmiOkB857lDA-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.482;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-2" source="tFxI3ymSdmiOkB857lDA-28" target="tFxI3ymSdmiOkB857lDA-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="480" />
+              <mxPoint x="108" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-43" value="번역용 파일 제공&lt;br&gt;(도면 이중언어 추가)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tFxI3ymSdmiOkB857lDA-35">
+          <mxGeometry x="-0.2565" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-2" source="tFxI3ymSdmiOkB857lDA-34" target="tFxI3ymSdmiOkB857lDA-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-44" value="납품" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tFxI3ymSdmiOkB857lDA-42">
+          <mxGeometry x="-0.1566" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.229;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tFxI3ymSdmiOkB857lDA-2" source="tFxI3ymSdmiOkB857lDA-63" target="tFxI3ymSdmiOkB857lDA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tFxI3ymSdmiOkB857lDA-70" value="&lt;font style=&quot;font-size: 10px&quot;&gt;번역문 납품(HLT 또는 Docx)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tFxI3ymSdmiOkB857lDA-69">
+          <mxGeometry x="0.4171" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

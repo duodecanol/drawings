@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T07:55:26.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="T-Np7Te-TnsQrD5ulr92" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T07:56:02.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="25jWkuWf1SmMq7mSIxos" version="15.9.4" type="github">
   <diagram name="Page-1" id="fbcf5db9-b524-4cd4-e4f3-379dc89c3999">
     <mxGraphModel dx="1354" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="385" y="200" width="8.25" height="420" as="geometry" />
         </mxCell>
         <mxCell id="pudd0YOGYRjVHMFhA41o-8" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="39" width="80" height="760" as="geometry" />
+          <mxGeometry x="70" y="168" width="80" height="502" as="geometry" />
         </mxCell>
         <mxCell id="2a0f93b5c73ef8e7-1" value="" style="line;strokeWidth=10;direction=south;html=1;fillColor=none;fontSize=13;fontColor=#000000;align=center;strokeColor=#AE4132;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="612.5" y="-90" width="10" height="1025" as="geometry" />
@@ -58,14 +58,11 @@
         <mxCell id="pudd0YOGYRjVHMFhA41o-2" value="&lt;b&gt;사건수임 후&lt;br&gt;분석&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDFFE8;shadow=1;sketch=0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="392.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pudd0YOGYRjVHMFhA41o-3" value="&lt;b&gt;내부처리&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDFFE8;shadow=1;sketch=0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="pudd0YOGYRjVHMFhA41o-4" value="&lt;b&gt;번역가 의뢰&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDFFE8;shadow=1;sketch=0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pudd0YOGYRjVHMFhA41o-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;DOCUMENT&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="29" width="160" height="30" as="geometry" />
+          <mxGeometry x="30" y="160" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pudd0YOGYRjVHMFhA41o-24" value="&lt;b&gt;번역문 도착&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDFFE8;shadow=1;sketch=0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="795" y="392.5" width="120" height="60" as="geometry" />
@@ -75,6 +72,9 @@
         </mxCell>
         <mxCell id="pudd0YOGYRjVHMFhA41o-28" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;fontSize=19;fillColor=#AE4132;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="690" y="220.25" width="305" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pudd0YOGYRjVHMFhA41o-3" value="&lt;b&gt;내부처리&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDFFE8;shadow=1;sketch=0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="287.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
